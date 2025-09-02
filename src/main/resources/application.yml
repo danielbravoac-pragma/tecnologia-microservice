@@ -1,0 +1,10 @@
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/tecnologia
+    username: postgres
+    password: root
+  flyway:
+    locations: classpath:db/migration
+    url: jdbc:postgresql://localhost:5432/tecnologia
+    user: postgres
+    password: root
